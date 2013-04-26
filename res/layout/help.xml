@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_gravity="left|center_vertical">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How do I create new party request?"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: You cannot make new party request in this application. You have to do it on the p[;official site - http://www.gw2lfg.com"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: What are filtered words in settings used for?"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: You can use them to find specific LFG entry. You can set up more words separated by comma. For example if you are looking for Fractals of the Mists and you want to join at the end set filter like this: last, 3rd, already, we are. Application shows only entries with ANY of these in text like: LF 1m, we are in last fractal"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: Application makes sounds every refresh?"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: Sounds are intended if you are looking for specific party and you have strict filters therefore list of found LFG's is usually empty. When some kind of such party appears application makes notification sound. If there is some party which you are not interested and would like to ignore it hold down your finger on this entry to remove it."
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: Advantage over web or FotohLFG?"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: I made this app for Fractals of the Mists when I look for party which is at last boss to cut off my time :-) How to do it?\n
+\n1) setup filter words like: last, 3rd, already, we are
+\n2) setup level range - 20-36 in my case
+\n3) set short delay - 1 or 2 sec - its because you want to be the first. These parties are full very fast.
+\n4) select Fractals of the Mists event
+\n5) turn on sounds
+\n6) enable Autorefresh - it will make sound when it finds something
+\n7) when interesting party appears write /join NameOfTheGuy in Guild Wars 2
+\n8) when full party or party with bad description appears hold down your finger on it to ignore it. Application will not make sound after next refresh until different entry is found. Bad description in this case can be: LF last person - because there is word last which is specified in filtered words but this LFG doesn't go to the last fractal so we are not interested."
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: I am not on wifi. What is data consumption?"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: I don't recommend using this through your cellular network connection. It does the same as if you were pressing F5 in your browser every second. Refresh delay is adjustable in settings - if you set delay to 10 seconds it's like pressing F5 every 10 seconds which is usable on cellular dataplan too."
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: This is all your work?"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: I made only this Android application. All credits go to http://www.gw2lfg.com where I only pull data from."
+                    android:id="@+id/textView"
+                    android:layout_gravity="left|center_vertical"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

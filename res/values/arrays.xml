@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Used in app/menu examples -->
+    <string-array name="events_list_preference">
+        <item>Dungeon - Explorable - Ascalonian Catacombs</item>
+        <item>Dungeon - Explorable - Caudecus\'s Manor</item>
+        <item>Dungeon - Explorable - Citadel of Flame</item>
+        <item>Dungeon - Explorable - Crucible of Eternity</item>
+        <item>Dungeon - Explorable - Honor of the Waves</item>
+        <item>Dungeon - Explorable - Sorrow\'s Embrace</item>
+        <item>Dungeon - Explorable - The Ruined City of Arah</item>
+        <item>Dungeon - Explorable - Twilight Arbor</item>
+        <item>Dungeon - Fractals of the Mists</item>
+        <item>Dungeon - Story - Ascalonian Catacombs</item>
+        <item>Dungeon - Story - Caudecus\'s Manor</item>
+        <item>Dungeon - Story - Citadel of Flame</item>
+        <item>Dungeon - Story - Crucible of Eternity</item>
+        <item>Dungeon - Story - Honor of the Waves</item>
+        <item>Dungeon - Story - Sorrow\'s Embrace</item>
+        <item>Dungeon - Story - The Ruined City of Arah</item>
+        <item>Dungeon - Story - Twilight Arbor</item>
+        <item>Guild event - Guild Bounty</item>
+        <item>Guild event - Guild Challenge</item>
+        <item>Guild event - Guild Puzzle</item>
+        <item>Guild event - Guild Rush</item>
+        <item>Guild event - Guild Trek</item>
+        <item>Other, specify in comments</item>
+        <item>PvE - General PvE, specify in comments</item>
+        <item>PvE - Jumping Puzzle(s)</item>
+        <item>PvE - Orr Temple</item>
+        <item>PvE - Personal Story</item>
+        <item>tPvP (free)</item>
+        <item>tPvP (paid)</item>
+    </string-array>
+
+</resources>
